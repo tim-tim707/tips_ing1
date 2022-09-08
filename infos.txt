@@ -1,0 +1,10 @@
+# Environment and keyboard
+# Vim
+# Terminal
+
+# C related
+## clang-format and clang-tidy
+
+# Relation with ACU's and YAKA's
+
+# security at Epita
