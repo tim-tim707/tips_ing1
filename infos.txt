@@ -1,10 +1,15 @@
 # Environment and keyboard
 # Vim
 # Terminal
+# Bash
+# Make
 
 # C related
 ## clang-format and clang-tidy
 
 # Relation with ACU's and YAKA's
+## Lies and personnal responsability
 
 # security at Epita
+
+# 1% every day, improvement
