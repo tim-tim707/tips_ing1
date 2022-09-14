@@ -19,6 +19,10 @@ int *better_allocator(size_t size) {
     return malloc(size);
 }
 
+int truc() {
+    return 0
+}
+
 int main(void) {
     int *bytes = better_allocator(32);
     printf("I allocated %zu bytes !\n", bytes);
