@@ -1,15 +1,56 @@
-# Environment and keyboard
+# Mind set
+Peace of mind, calmness
+
+# keyboard
+Touch typing: https://www.typingclub.com
+
 # Vim
+Cheat sheet: https://vimsheet.com/, Chewie conf: https://youtu.be/D2B3YI_d6HA
+custom bindings, commands, settings ~/.vimrc
+
 # Terminal
-# Bash
-# Make
+ls /a/path/to/dir
+cd ~/my/path/i/know
+
+echo a && echo b && echo c
+do thing; do next thing anyway
+
+Ctr+z (in process), fg (to resume), Ctr+w, Ctr+r
+Shell config, aliases, custom commands (bash with ~/.bashrc)
+
+# I3
+mod+[0-9]
+mod+arrows
+add binds to ~/i3/config (mod+hjkl is great)
+
+# Web
+Ctr+t Ctr+w Ctr+PageUp Ctr+PageDown
+
+# git
+git cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
+git aliases (~/.gitconfig)
 
 # C related
 ## clang-format and clang-tidy
+have a keybind for it, or a plugin for format on save
 
+clang-tidy is (not but should be) necessary
+
+`-g -fsanitize=address` is your best friend for life
+
+# Make
+
+# Weak men strong men
+Personal responsibility
 # Relation with ACU's and YAKA's
 ## Lies and personnal responsability
 
 # security at Epita
+Be careful with personal belongings, and always lock your session
 
-# 1% every day, improvement
+# Habits
+    1% improvement
+    Sleeping habits !
+    Eating habits !
+    Make breaks often !
+    Never stay alone !
