@@ -27,8 +27,11 @@ add binds to ~/i3/config (mod+hjkl is great)
 Ctr+t Ctr+w Ctr+PageUp Ctr+PageDown
 
 # git
+.gitignore
 git cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
 git aliases (~/.gitconfig)
+
+Create git remotes (multiple servers at once)
 
 # C related
 ## clang-format and clang-tidy
@@ -39,6 +42,7 @@ clang-tidy is (not but should be) necessary
 `-g -fsanitize=address` is your best friend for life
 
 # Make
+example
 
 # Weak men strong men
 Personal responsibility
@@ -48,9 +52,16 @@ Personal responsibility
 # security at Epita
 Be careful with personal belongings, and always lock your session
 
-# Habits
-    1% improvement
+# Life in Ing1 / Habits
     Sleeping habits !
     Eating habits !
     Make breaks often !
-    Never stay alone !
+    Do something else
+
+# What is Epita
+Epita is about the great and competent people
+Never stay alone ! + associations
+
+# Epita is not a goal
+    1% improvement
+    leetcode, google hash code, personnal projects
