@@ -30,6 +30,7 @@ Ctr+t Ctr+w Ctr+PageUp Ctr+PageDown
 .gitignore
 git cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
 git aliases (~/.gitconfig)
+commit convention
 
 Create git remotes (multiple servers at once)
 
@@ -39,10 +40,19 @@ have a keybind for it, or a plugin for format on save
 
 clang-tidy is (not but should be) necessary
 
+Naming convention
 `-g -fsanitize=address` is your best friend for life
 
 # Make
 example
+
+# Precommit
+precommit
+
+# discord WebHook, tests, CI
+Gtest > Criterion
+Integration testing: Python script + yml
+Github actions, Gitlab CI
 
 # Weak men strong men
 Personal responsibility
