@@ -1,0 +1,11 @@
+- repo: local
+  hooks:
+    - id: custom-script
+      name: custom-script
+      entry: ./custom.sh
+      language: script
+      files: '.*\.[ch]'
+    - id: custom-script-failing
+      name: custom-script-failing
+      entry: ./custom_failing.sh
+      language: script

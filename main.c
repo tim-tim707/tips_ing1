@@ -2,8 +2,11 @@
 #include <stdio.h>
 
 char *allocator(size_t size, char *string) {
-    if (size + 1 == 1 + size) {
+    if (size == 4) {
         puts("I am true");
+    }
+    else if (size == 4) { // Should appear as a linter warning
+        puts("what");
     }
     int *p = NULL;
     if (*p == 3) {
@@ -11,7 +14,7 @@ char *allocator(size_t size, char *string) {
     }
     int a;
     int b = a;
-    char buf[64] = {};
+    char buf[64] = { 0 };
     return buf;
 }
 
@@ -20,7 +23,7 @@ int *better_allocator(size_t size) {
 }
 
 int truc() {
-    return 0
+    return 0;
 }
 
 int main(void) {

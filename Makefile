@@ -13,3 +13,7 @@ compile:
 
 hello:
 	echo "Hello world"
+
+segfault:
+	gcc -g -fsanitize=address segfault.c
+	./a.out
