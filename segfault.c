@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void)
+{
     char *buffer = malloc(64);
 
     buffer[64] = 0;

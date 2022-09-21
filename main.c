@@ -1,15 +1,19 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-char *allocator(size_t size, char *string) {
-    if (size == 4) {
+char *allocator(size_t size, char *string)
+{
+    if (size == 4)
+    {
         puts("I am true");
     }
-    else if (size == 4) { // Should appear as a linter warning
+    else if (size == 4)
+    { // Should appear as a linter warning
         puts("what");
     }
     int *p = NULL;
-    if (*p == 3) {
+    if (*p == 3)
+    {
         puts("It's working !");
     }
     int a;
@@ -18,18 +22,22 @@ char *allocator(size_t size, char *string) {
     return buf;
 }
 
-int *better_allocator(size_t size) {
+int *better_allocator(size_t size)
+{
     return malloc(size);
 }
 
-int truc() {
+int truc()
+{
     return 0;
 }
 
-int main(void) {
+int main(void)
+{
     int *bytes = better_allocator(32);
     printf("I allocated %zu bytes !\n", bytes);
-    if (bytes[0] == 41) {
+    if (bytes[0] == 41)
+    {
         puts("Error happened !");
         return 1;
     }
