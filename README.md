@@ -24,3 +24,6 @@ run them.
 
 # Integration_example directory
 This directory gives an example of an integration test runner taking a yml as testsuite and an executable to test as argument. It provides a diff of the expected output and the actual result
+
+# Slides.pdf
+Self-explanatory
