@@ -34,13 +34,18 @@ TEST_F(HelloFixture, basic)
 
 TEST_F(HelloFixture, medium)
 {
-    // From
-    // https://stackoverflow.com/questions/5419356/redirect-stdout-stderr-to-a-string
-    // We capture the output of our call to the function we want to test
-    std::stringstream buffer;
+    testing::internal::CaptureStdout();
+
     hello_world();
-    std::string text = buffer.str();
-    ASSERT_STREQ("Hello World!\n", text.c_str());
+
+    std::string text = testing::internal::GetCapturedStdout();
+    std::string expect{ "Hello World!\n" };
+    ASSERT_EQ(expect, text);
+}
+
+TEST_F(HelloFixture, fail_example)
+{
+    ASSERT_FALSE(0 == 0);
 }
 
 auto main(int argc, char **argv) -> int

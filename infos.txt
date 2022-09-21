@@ -54,6 +54,8 @@ Gtest > Criterion
 Integration testing: Python script + yml
 Github actions, Gitlab CI
 
+# Who to get the information =========
+
 # Weak men strong men
 Personal responsibility
 # Relation with ACU's and YAKA's
@@ -73,5 +75,5 @@ Epita is about the great and competent people
 Never stay alone ! + associations
 
 # Epita is not a goal
-    1% improvement
-    leetcode, google hash code, personnal projects
+    1% improvement, regularity
+    leetcode, google hash code, personal projects
