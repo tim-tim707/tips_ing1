@@ -1,4 +1,4 @@
-.PHONY: check test compile run
+.PHONY: check test compile_tests compile_objects compile run help
 
 all:
 	make test
@@ -23,3 +23,6 @@ compile: compile_objects
 
 run:
 	@./a.out
+
+help:
+	@echo "Available options: help, run, compile, compile_objects, compile_tests, check | test, all (test)"

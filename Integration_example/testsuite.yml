@@ -1,0 +1,20 @@
+- name: empty
+  args:
+  - "./a.out"
+  stdout: "Argument 0 is ./a.out\n"
+- name: one_argument
+  args:
+  - "./a.out"
+  - "1"
+  stdout: "Argument 0 is ./a.out\n\
+Argument 1 is 1\n"
+- name: fail_example
+  args:
+  - "./a.out"
+  - "1"
+  - "2"
+  - "3"
+  stdout: "Argument 0 is ./a.out\n\
+Argument 1 is 1\n\
+Argument 2 is 2\n\
+Argument 3 is error\n"
